@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#E8F5E9"/>
+  <!-- Plant row -->
+  <g fill="#228B22">
+    <ellipse cx="80" cy="180" rx="20" ry="30"/>
+    <ellipse cx="160" cy="175" rx="22" ry="32"/>
+    <ellipse cx="240" cy="178" rx="20" ry="28"/>
+    <ellipse cx="320" cy="182" rx="18" ry="26"/>
+  </g>
+  <!-- Stems -->
+  <g stroke="#8B4513" stroke-width="3" fill="none">
+    <line x1="80" y1="210" x2="80" y2="250"/>
+    <line x1="160" y1="207" x2="160" y2="250"/>
+    <line x1="240" y1="206" x2="240" x2="250"/>
+    <line x1="320" y1="208" x2="320" y2="250"/>
+  </g>
+  <!-- Ground -->
+  <rect x="0" y="240" width="400" height="60" fill="#8B7355"/>
+  <!-- Spray bottle -->
+  <rect x="170" y="80" width="60" height="80" fill="#4CAF50" rx="5"/>
+  <rect x="190" y="60" width="20" height="25" fill="#4CAF50" rx="3"/>
+  <rect x="180" y="55" width="40" height="10" fill="#333" rx="2"/>
+  <!-- Spray drops -->
+  <g fill="#87CEEB" opacity="0.6">
+    <circle cx="160" cy="130" r="3"/>
+    <circle cx="140" cy="145" r="2"/>
+    <circle cx="150" cy="160" r="2.5"/>
+    <circle cx="240" cy="135" r="2.5"/>
+    <circle cx="260" cy="150" r="3"/>
+    <circle cx="250" cy="165" r="2"/>
+  </g>
+  <text x="200" y="280" text-anchor="middle" fill="#2D6A4F" font-family="sans-serif" font-size="12" font-weight="bold">Crop Spraying</text>
+</svg>

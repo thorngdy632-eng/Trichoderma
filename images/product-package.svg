@@ -1,0 +1,25 @@
+<svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg" width="600" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE8D6"/>
+      <stop offset="100%" stop-color="#FAF7F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#bgGrad)"/>
+  
+  <g transform="translate(0,0)">
+    <ellipse cx="300" cy="430" rx="180" ry="26" fill="#16342A" opacity="0.12"/>
+    <path d="M180 140 Q170 90 220 80 L380 80 Q430 90 420 140 L440 380 Q440 430 380 430 L220 430 Q160 430 160 380 Z" fill="#2D6A4F"/>
+    <path d="M180 140 Q170 90 220 80 L380 80 Q430 90 420 140 L424 190 L176 190 Z" fill="#16342A"/>
+    <rect x="230" y="60" width="140" height="45" rx="10" fill="#16342A"/>
+    <circle cx="300" cy="82" r="6" fill="#FAF7F0"/>
+    <g transform="translate(300,260)">
+      <circle r="95" fill="#FAF7F0" opacity="0.95"/>
+      <circle r="95" fill="none" stroke="#C6A15B" stroke-width="4"/>
+      <text x="0" y="-18" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="26" fill="#16342A">Trichoderma</text>
+      <text x="0" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2D6A4F">biological formula</text>
+      <path d="M-40 30 Q0 60 40 30" stroke="#C6A15B" stroke-width="3" fill="none"/>
+    </g>
+    <path d="M215 380 Q300 400 405 380" stroke="#E4CE9E" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+</svg>

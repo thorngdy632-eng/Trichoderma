@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#E0F4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg3)"/>
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#8B7355"/>
+  <!-- Farmer figure -->
+  <circle cx="200" cy="130" r="20" fill="#DEB887"/>
+  <rect x="185" y="150" width="30" height="50" fill="#2D6A4F" rx="5"/>
+  <rect x="170" y="200" width="15" height="50" fill="#4169E1"/>
+  <rect x="215" y="200" width="15" height="50" fill="#4169E1"/>
+  <!-- Hat -->
+  <ellipse cx="200" cy="115" rx="30" ry="10" fill="#D2691E"/>
+  <rect x="185" y="95" width="30" height="20" fill="#D2691E" rx="3"/>
+  <!-- Trichoderma bottle -->
+  <rect x="240" y="170" width="20" height="40" fill="#228B22" rx="3"/>
+  <rect x="245" y="160" width="10" height="15" fill="#228B22" rx="2"/>
+  <text x="250" y="195" text-anchor="middle" fill="white" font-size="8" font-weight="bold">T</text>
+  <!-- Plants -->
+  <g fill="#228B22">
+    <ellipse cx="100" cy="190" rx="15" ry="20"/>
+    <ellipse cx="300" cy="185" rx="18" ry="25"/>
+    <ellipse cx="350" cy="195" rx="12" ry="15"/>
+  </g>
+  <text x="200" y="280" text-anchor="middle" fill="#2D6A4F" font-family="sans-serif" font-size="12" font-weight="bold">Farmer Application</text>
+</svg>
